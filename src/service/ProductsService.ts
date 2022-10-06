@@ -1,8 +1,9 @@
-import { IProducts } from "../interface/iProducts";
-import ProductsModel from "../models/ProductsModel";
+import { IProducts } from '../interface/iProducts';
+import ProductsModel from '../models/ProductsModel';
 
 export default class ProductsService {
   model: ProductsModel;
+
   constructor() {
     this.model = new ProductsModel();
   }
