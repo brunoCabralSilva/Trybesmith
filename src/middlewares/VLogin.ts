@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 
-export default class Middlewares {
+export default class VLogin {
   user = (req: Request, res: Response, next: NextFunction) => {
     if (!req.body.username || req.body.username === '') {
       return res.status(400).json({ message: '"username" is required' });
