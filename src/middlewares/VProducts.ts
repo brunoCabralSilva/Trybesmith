@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 
 export default class VProducts {
-  nameProduct = (req: Request, res: Response, next: NextFunction) => {
+  name = (req: Request, res: Response, next: NextFunction) => {
     const { name } = req.body;
     if (!name || name === '') {
       return res.status(400).json({ message: '"name" is required' });
@@ -16,8 +16,8 @@ export default class VProducts {
     next();
   };
 
-  amountProduct = (req: Request, res: Response, next: NextFunction) => {
-    const { name: amount } = req.body;
+  amount = (req: Request, res: Response, next: NextFunction) => {
+    const { amount } = req.body;
     if (!amount || amount === '') {
       return res.status(400).json({ message: '"amount" is required' });
     }

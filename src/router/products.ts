@@ -7,6 +7,12 @@ const productsController = new ProductsController();
 const middlewares = new VProducts();
 
 router.get('/', productsController.getAllProducts);
-router.post('/', middlewares.nameProduct, productsController.registerProduct);
+
+router.post(
+  '/',
+  middlewares.name,
+  middlewares.amount,
+  productsController.registerProduct,
+);
 
 export default router;
