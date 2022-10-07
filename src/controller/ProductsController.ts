@@ -9,12 +9,12 @@ export default class ProductsController {
     this.service = new ProductsService();
   }
 
-  getAllProducts = async (req: Request, res: Response) => {
+  getAllProducts = async (req: Request, res: Response): Promise<Response> => {
     const products = await this.service.getAllProducts();
     return res.status(200).json(products);
   };
 
-  registerProduct = async (req: Request, res:Response) => {
+  registerProduct = async (req: Request, res:Response): Promise<Response> => {
     const { name, amount } = req.body;
     const register = await this.service.registerProduct(name, amount);
     return res.status(201).json({

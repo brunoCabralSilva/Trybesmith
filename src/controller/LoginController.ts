@@ -12,7 +12,7 @@ export default class LoginConstroller {
     this.token = new Token();
   }
   
-  searchUser = async (req: Request, res: Response) => {
+  searchUser = async (req: Request, res: Response): Promise<Response> => {
     const { username, password } = req.body;
     const search = await this.service.getUser(username, password);
     if (search === undefined) {

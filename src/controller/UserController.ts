@@ -8,7 +8,7 @@ export default class UserController {
     this.service = new UserService();
   }
 
-  registerUser = async (req: Request, res: Response) => {
+  registerUser = async (req: Request, res: Response): Promise<Response> => {
     const { username, classe, level, password } = req.body;
     const register = await this.service
       .registerUser(username, classe, level, password);

@@ -8,7 +8,7 @@ export default class OrdersController {
     this.service = new OrdersService();
   }
 
-  getAllRequests = async (req: Request, res: Response) => {
+  getAllRequests = async (req: Request, res: Response): Promise<Response> => {
     const requests = await this.service.getAllRequests();
     return res.status(200).json(requests);
   };
