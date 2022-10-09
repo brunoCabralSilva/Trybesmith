@@ -1,4 +1,4 @@
-# Projeto Trybesmith!
+# Projeto Trybesmith
 
 O Trybesmith foi o 27ª projeto feito pela Trybe, onde foi desenvolvida uma loja de itens medievais, no formato de uma _API_, utilizando _Typescript_.
 
