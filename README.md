@@ -1,23 +1,15 @@
 # Projeto Trybesmith!
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+O Trybesmith foi o 27ª projeto feito pela Trybe, onde foi desenvolvida uma loja de itens medievais, no formato de uma _API_, utilizando _Typescript_.
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+Nesta aplicação, foi utilizado o conceito de camadas (_Models_, _Service_ e _Controllers_) e, por meio dessa aplicação, é possível realizar as operações básicas que se pode fazer em um determinado banco de dados (Criação, Leitura, Atualização e Exclusão, conhecidas como `CRUD`).
 
-  Para este projeto, você vai criar uma loja de itens medievais, no formato de uma _API_, utilizando _Typescript_.
-  
-  Você irá desenvolver todas as camadas da aplicação (_Models_, _Service_ e _Controllers_) em seu código e, por meio dessa aplicação, será possível realizar as operações básicas que se pode fazer em um determinado banco de dados:
-  Criação, Leitura, Atualização e Exclusão (ou `CRUD`, para as pessoas mais íntimas 😜 - _Create, Read, Update_ e _Delete_).
+Para tal, foram criados _endpoints_ que tem como função ler e escrever em um banco de dados, utilizando o **MySQL**.
 
-  Você irá criar alguns _endpoints_ que irão ler e escrever em um banco de dados, utilizando o **MySQL**.
-
-  ---
-
-  O código para cadastro de pessoas usuárias deve ser criado por você utilizando os conhecimentos adquiridos nesse bloco.
-
+O código para cadastro de pessoas usuárias foi criado utilizando os conhecimentos adquiridos nesse bloco voltados a Typescript.
   
 
-# Requisitos
+## Requisitos cumpridos neste projeto
 
 ## 1 - Crie um endpoint para o cadastro de produtos
 
