@@ -2,7 +2,7 @@
 
 O Trybesmith foi o 27ª projeto feito pela Trybe, onde foi desenvolvida uma loja de itens medievais, no formato de uma _API_, utilizando _Typescript_.
 
-Nesta aplicação, foi utilizado o conceito de camadas (_Models_, _Service_ e _Controllers_) e, por meio dessa aplicação, é possível realizar as operações básicas que se pode fazer em um determinado banco de dados (Criação, Leitura, Atualização e Exclusão, conhecidas como `CRUD`).
+Nesta aplicação, foi utilizado o conceito de camadas (_Models_, _Service_ e _Controllers_) e, por meio dela, é possível realizar as operações básicas que se pode fazer em um determinado banco de dados (Criação, Leitura, Atualização e Exclusão, conhecidas como `CRUD`).
 
 Para tal, foram criados _endpoints_ que tem como função ler e escrever em um banco de dados, utilizando o **MySQL**.
 
